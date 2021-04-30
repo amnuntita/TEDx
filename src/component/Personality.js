@@ -1,4 +1,4 @@
-import { Box, Button, Grid, HStack, Text, VStack } from '@chakra-ui/react';
+import { Box, Button, Grid, Image, Text, VStack } from '@chakra-ui/react';
 
 import CircularImage from './CircularImage.js';
 

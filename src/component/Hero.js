@@ -8,7 +8,8 @@ import {
 } from '@chakra-ui/react';
 const Hero = () => {
   return (
-    <Stack direction={['column-reverse', 'row']} spacing="0" mb="20">
+    
+    <Stack direction={['column-reverse', 'row']} spacing="0" mb="5">
       <VStack spacing="2" w={['100vw', '40vw']} justifyContent="center" mt="9">
         <Box w={{base:"85%",xl:"80%"}}>
           <Text fontSize={["3xl","5xl"]} fontWeight="bold">
@@ -54,6 +55,7 @@ const Hero = () => {
         />
       </Box>
     </Stack>
+    
   );
 };
 
